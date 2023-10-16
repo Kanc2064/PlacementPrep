@@ -1,0 +1,65 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdK8iLw71K04JpVvl_Yl54JeM397vC_28RtA&usqp=CAU");
+  background-size: cover;
+  position: relative;
+}
+.login .top .wrapper {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login .top .wrapper .logo {
+  height: 40px;
+}
+.login .container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.login form {
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login form input {
+  height: 40px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+}
+.login form input::placeholder {
+  color: lightgray;
+}
+.login form button {
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login form span {
+  color: lightgray;
+}
+.login form span b {
+  color: white;
+}
